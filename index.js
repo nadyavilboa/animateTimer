@@ -19,8 +19,6 @@ const getCurrentTime = (seconds) => {
   return formatTimerVal(hh) + ':' + formatTimerVal(mm) + ':' + formatTimerVal(ss);
 }
 
-// Напишите реализацию createTimerAnimator
-// который будет анимировать timerEl
 const createTimerAnimator = () => {
   return (seconds) => {
     let currentTime = seconds;
