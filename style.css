@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.timer-controls {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.timer-value,
+.timer-controls input,
+.timer-controls button {
+    font-size: 22px;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.timer-controls input,
+.timer-controls button {
+    padding: 5px;
+}
+
+.timer-controls button {
+    border: none;
+    background-color: royalblue;
+    color: white;
+}
